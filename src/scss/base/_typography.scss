@@ -1,0 +1,13 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: $robotoFont;
+}
+
+a {
+    text-decoration: none;
+}

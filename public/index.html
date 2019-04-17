@@ -3,13 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>Arch Motorcycle</title>
+    <link href="https://fonts.googleapis.com/css?family=Overpass:400,700|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body id="home">
-    <video autoplay muted loop id="video-bg">
-      <source src="img/main-video-bg.mp4" type="video/mp4">
-    </video>
-    <main class="content">
+    
+    <div class="fullscreen-bg">
+      <div class="wrapper">
+        <header>
+            <div class="logo">
+              <a href="index.html">
+                <img src="img/logo.png" alt="arch motorcycle logo">
+              </a>
+            </div>
+            <nav class="main-nav">
+              <ul>
+                <li><a href="#">about arch</a></li>
+                <li>
+                  <a href="http://instagram.com/archmotorcycle" target="_blank" rel="noreferrer">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/archmotorcycle/" target="_blank" rel="noreferrer">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+          <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+              <!-- <source src="video/big_buck_bunny.webm" type="video/webm"> -->
+              <source src="img/main-video-bg.mp4" type="video/mp4">
+              <!-- <source src="video/big_buck_bunny.ogv" type="video/ogg"> -->
+          </video>
+          <div class="content">
+            <ul>
+              <li><a href="">krgt-1</a></li>
+              <li><a href="">1s</a></li> 
+              <li><a href="">method 143</a></li>   
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <!-- <main class="content">
       <header>
         <div class="logo">
           <img src="" alt="arch motorcycle logo">
@@ -27,6 +66,6 @@
           <li><a href="">method 143</a></li>   
         </ul>
       </div>
-    </main>  
+    </main>   -->
   </body>
 </html>
